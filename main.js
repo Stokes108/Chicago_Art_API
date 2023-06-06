@@ -124,6 +124,7 @@ let art_modal_display = (title, artist, date, style, material, image_url, alt_te
                         <a target="_blank" href="${image_url}"><img class="modal-img" src="${image_url}" alt="${alt_text}"></a>
                             <div class="modal-info">
                                 <h2 class="'modal-title">${title}</h2>
+                                <br>
                                 <p class=''>Artist: ${artist} <br> Date Displayed: ${date} <br> Style: ${style} <br> Material: ${material} <br> Place of Origin: ${location} </p>
                             </div>
                             <span class="close">&times;</span>
